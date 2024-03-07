@@ -1,0 +1,47 @@
+.our-service h1 {
+    color: #10234d;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.services-hr {
+    margin: 10px auto;
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #10234d;
+}
+
+.services img {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    margin-top: 65px; 
+    margin-left: 120px;
+}
+
+.services {
+    display: flex;
+    text-align: left;
+    margin-top: 20px; 
+}
+
+.services p {
+    max-width: 600px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 250px;
+  }
+  
+  .services p > hr {
+    margin: 10px 0;
+    border: none;
+  }
+
+  .services p > hr:last-child {
+    width: 60%;
+    margin: 10px auto;
+  }

@@ -1,0 +1,57 @@
+.playersdisplay {
+    display: flex;
+    margin: 0px 170px;
+    margin-top: 60px;
+}
+
+.playersdisplay-left {
+    display: flex;
+    gap: 17px;
+}
+
+.playersdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.playersdisplay-img-list img {
+    height: 163px;
+    cursor: pointer;
+    /* object-fit: cover; */
+}
+
+.playersdisplay-main-img {
+    width: 586px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.playersdisplay-right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.playersdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.playersdisplay-right-p {
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.playersdisplay-right-contry {
+    color: #818181;
+}
+
+.playersdisplay-right-position {
+    color: #ff4141;
+
+}

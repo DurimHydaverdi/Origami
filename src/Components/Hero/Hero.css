@@ -1,0 +1,16 @@
+.home-icon h1 {
+  color: #10234d;
+}
+
+.home-icon video {
+  height: 1500px;
+  width: 1500px;
+  margin-top: 10px;
+}
+
+@media (max-width: 2048px) {
+    .home-icon video {
+      max-width: 100%; 
+      height: auto; 
+    }
+  }
